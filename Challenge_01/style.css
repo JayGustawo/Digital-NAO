@@ -1,0 +1,152 @@
+/* Professional Fonts */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Female Colors */
+:root {
+    --primary-color: #F2994A;
+    --secondary-color: #FFCDB2;
+    --dark-color: #333333;
+    --light-color: #FFFFFF;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--light-color);
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.nav-link {
+    color: var(--dark-color);
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+/* Hero Section */
+.jumbotron {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+}
+
+/* Main Content Section */
+.container {
+    margin-top: 50px;
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+footer a {
+    color: var(--light-color);
+}
+
+footer a:hover {
+    color: var(--secondary-color);
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+
+    /* Navbar */
+    .navbar-collapse {
+        background-color: var(--light-color);
+    }
+
+    .navbar-brand {
+        color: var(--dark-color);
+    }
+
+    .navbar-toggler {
+        border-color: var(--dark-color);
+    }
+
+    .navbar-toggler-icon {
+        background-color: var(--dark-color);
+    }
+
+    /* Hero Section */
+    .jumbotron {
+        padding: 80px 15px;
+    }
+
+    .jumbotron h1 {
+        font-size: 36px;
+        line-height: 1.2;
+        color: var(--dark-color);
+    }
+
+    .jumbotron p {
+        font-size: 18px;
+        line-height: 1.5;
+        color: var(--dark-color);
+    }
+
+    /* Main Content Section */
+    .container {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    /* Hero Section */
+    .jumbotron {
+        padding: 150px 15px;
+    }
+
+    .jumbotron h1 {
+        font-size: 48px;
+        line-height: 1.2;
+        color: var(--dark-color);
+    }
+
+    .jumbotron p {
+        font-size: 24px;
+        line-height: 1.5;
+        color: var(--dark-color);
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* Hero Section */
+    .jumbotron {
+        padding: 200px 15px;
+    }
+
+    .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1.2;
+        color: var(--dark-color);
+    }
+
+    .jumbotron p {
+        font-size: 30px;
+        line-height: 1.5;
+        color: var(--dark-color);
+    }
+
+    /* Main Content Section */
+    .container {
+        margin-top: 100px;
+    }
+}
